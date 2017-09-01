@@ -1,6 +1,6 @@
  function current() {
- var euros = prompt('Euro?', );	
  var dollars = prompt('How many dollars do you need?', );
+ var euros = prompt('Euro?', );	
  var euroRate = 30.48;
  var dollarRate = 25.57;
  var euroInGrn = (euros*euroRate).toFixed(2);
