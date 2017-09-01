@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body, .content {
+	height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+.content {
+	text-align: center;
+	width: 1170px;
+	margin:0 auto;
+	box-shadow:  0 0 15px rgba(0,0,0,0.75);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+h1, h2 {
+	text-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
+	color: #fff;
+}
+header {
+	background: rgba(0,0,0,0.1); 
+}
+main {
+  flex: 1 0 auto;
+}
+.part1, .part2 {
+	width: 500px;
+	margin: 10px;
+} 
+.buttons {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 15px;
+
+}
+button {
+	font-family: 'Comic Sans MS', sans-serif;
+	padding: 15px;
+	font-size: 100px;
+	margin: 20px;
+	background: rgba(224,224,224,0.0);
+	border: 1px solid;
+	border-radius: 3px;
+}
+button:hover {
+	color: #fff;
+	text-shadow: 0 0 15px rgba(0,0,0,0.75);
+}
+button:active {
+	transform: scale(1.1);
+	text-shadow: 0 0 15px rgba(0,0,0,0.75);
+}
+
+footer img {
+	width: 32px;
+	height: 32px;
+	margin:10px 20px 10px 0px;
+
+
+}
+
+footer {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(0,0,0,0.1); 
+}
